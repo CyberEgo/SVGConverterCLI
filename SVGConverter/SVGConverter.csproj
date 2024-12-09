@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<!-- BEGIN: Publish single executable file -->
+		<PublishSingleFile>true</PublishSingleFile>
+		<SelfContained>true</SelfContained>
+		<RuntimeIdentifier>win-x64</RuntimeIdentifier>
+		<!-- Replace with your target platform -->
+		<PublishTrimmed>true</PublishTrimmed>
+		<!-- Optional: Reduce file size -->
+		<!-- BEGIN: Publish single executable file -->
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Svg" Version="3.4.7" />
+		<PackageReference Include="System.CommandLine" Version="2.0.0-beta4.22272.1" />
+	</ItemGroup>
+
+</Project>

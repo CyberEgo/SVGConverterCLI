@@ -21,12 +21,13 @@ A simple command-line application that converts SVG files to raster images (PNG,
 ## Installation
 
 1. **Clone the Repository**:
-
+<br/>`git clone https://github.com/CyberEgo/SVGConverter.git cd SVGConverter`
    
 2. **Restore NuGet Packages**:
-
+<br/>`dotnet restore`
    
 3. **Build the Application**:
+<br/>`dotnet build`
 
    
 ## Publishing as a Single Executable (Optional)
@@ -39,7 +40,7 @@ To publish the application as a single executable file:
 
    
 2. **Publish the Application**:
-
+<br/>`dotnet publish -c Release -r win-x64 --self-contained`
    
    The single executable can be found in the `bin/Release/net8.0/win-x64/publish` directory.
 
@@ -130,18 +131,12 @@ To contribute or modify the application:
 - **Installation Issues**:
 
   - If you encounter issues installing `System.CommandLine`, ensure you include the `-Prerelease` flag.
-  - Example:
 
     
 - **Ambiguous Method Calls**:
 
   - If you receive errors about ambiguous calls to `SvgDocument.Open<T>`, use the overload without the second parameter or cast `null` appropriately.
-  - Example:
 
-    
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
 

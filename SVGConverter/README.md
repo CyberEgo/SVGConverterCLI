@@ -21,7 +21,7 @@ A simple command-line application that converts SVG files to raster images (PNG,
 ## Installation
 
 1. **Clone the Repository**:
-<br/>`git clone https://github.com/your-repo/SVGConverter.git cd SVGConverter`
+<br/>`git clone https://github.com/CyberEgo/SVGConverter.git cd SVGConverter`
    
 2. **Restore NuGet Packages**:
 <br/>`dotnet restore`
